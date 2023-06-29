@@ -71,9 +71,6 @@ function calculateExpression(expression) {
     expression = expression.replace(/NINE/gi, "9");
     
 
-
-
-
     // Replace all instances of "plus" with "+"
     expression = expression.replace(/plus/gi, "+");
     expression = expression.replace(/Plus/gi, "+");
@@ -87,6 +84,7 @@ function calculateExpression(expression) {
     expression = expression.replace(/addition/gi, "+");
     expression = expression.replace(/Addition/gi, "+");
     expression = expression.replace(/ADDITION/gi, "+");
+
 
 
     // Replace all instances of "minus" with "-"
@@ -104,6 +102,7 @@ function calculateExpression(expression) {
     expression = expression.replace(/LESS/gi, "-");
 
 
+    
     // Replace all instances of "divide" with "/"
     expression = expression.replace(/divide/gi, "/");
     expression = expression.replace(/Divide/gi, "/");
