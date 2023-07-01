@@ -1,17 +1,17 @@
 /* Computer Screen */
-body{
+body {
     background-color: black;
     font-family: 'JetBrains Mono', monospace;
 }
 
 
 /* Calculator body */
-#body{
+#body {
     /* background-color: white; */
     border-collapse: collapse;
 }
 
-.body{
+.body {
     font-family: 'JetBrains Mono', monospace;
     margin-left: auto;
     margin-right: auto;
@@ -47,28 +47,28 @@ body{
 
 
 /* Number Pad */
-.number{
-font-family: 'JetBrains Mono', monospace;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 7px 7px;
-gap: 10px;
-height: 72px;
-width: 72px;
-font-weight: 400;
-font-size: 24px;
-background: linear-gradient(159.64deg, #E5E3DD 13.35%, rgba(235, 234, 234, 0) 86.28%);
-filter: drop-shadow(0px 4px 4px rgba(181, 160, 119, 0.25));
-border-radius: 30px;
-border: none;
+.number {
+    font-family: 'JetBrains Mono', monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 7px;
+    gap: 10px;
+    height: 72px;
+    width: 72px;
+    font-weight: 400;
+    font-size: 24px;
+    background: linear-gradient(159.64deg, #E5E3DD 13.35%, rgba(235, 234, 234, 0) 86.28%);
+    filter: drop-shadow(0px 4px 4px rgba(181, 160, 119, 0.25));
+    border-radius: 30px;
+    border: none;
 }
 
 /* Operand */
-.operand{
-font-family: 'JetBrains Mono', monospace;
-display: flex;
+.operand {
+    font-family: 'JetBrains Mono', monospace;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -82,5 +82,3 @@ display: flex;
     border-radius: 30px;
     border: none;
 }
-
-
